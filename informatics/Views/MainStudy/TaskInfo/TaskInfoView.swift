@@ -80,6 +80,8 @@ struct TaskInfoView: View {
                 SaveAndGetTasks.shared.saveTask(task: task)
             }
                 save.toggle()
+            
+            
                
             }, label: {
                 Image(systemName: "star.fill")

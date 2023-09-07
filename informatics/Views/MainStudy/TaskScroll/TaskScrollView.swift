@@ -34,6 +34,7 @@ struct TaskScrollView: View {
             VStack(){
                 ForEach(coordinator.tasksForTaskScrollView.taskOptions!) { item in
                     Button {
+                   //     coordinator.goHome()
                         coordinator.goTaskInfoView(task: item)
                             
                     } label: {
